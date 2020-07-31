@@ -1,0 +1,62 @@
+<b-row id="roadMappanel">
+    <b-col sm="5"  class=" align-self-end" id="leftPanel" >
+        <b-row>
+            <b-col  sm="12" class="roadmapCard">
+                <b-row id="zdjecie">
+                    <b-col  sm="3">
+
+                        <b-row><b-img center src="{{ asset('img/kar3.png') }}" thumbnail fluid  alt="Circle image" alt="Center image"></b-img></b-row>
+                    </b-col>
+                    <b-col sm="9" class="cardtext">
+                        <span>adaas asdsdaas asdsd asds asdsdaas asdsdaas asdsdaas asdsdaas asdsdaas asdsdaas asdsdaas asds</span>
+                    </b-col>
+                </b-row>
+            </b-col>
+        </b-row>
+    </b-col>
+    <b-col sm="2" style="padding:0px" >
+        <b-col sm="6" style="padding:0px" id="centerPanel"></b-col>
+    </b-col>
+    <b-col  sm="5" class=" align-self-end" id="rightPanel" style="padding:0px" >
+        <b-row>
+            <b-col  sm="12" class="roadmapCard">
+                <b-row  id="zdjecie">
+                    <b-col  sm="9" class="cardtext">
+                        <span>adaas asdsdaas asdsd asds asdsdaas asdsdaas asdsdaas asdsdaas asdsdaas asdsdaas asdsdaas asds</span>
+                    </b-col>
+                    <b-col sm="3"><b-row><b-img center src="{{ asset('img/kar3.png') }}" thumbnail fluid  alt="Circle image" alt="Center image"></b-img></b-row></b-col>
+                </b-row>
+            </b-col>
+        </b-row>
+    </b-col>
+</b-row>
+
+<div id="calendar">
+    <b-button id="popover-target-1">
+        Hover Me
+    </b-button>
+    <b-popover target="popover-target-1" triggers="hover" placement="top">
+        <template v-slot:title><div ><b-button v-if="selectedMonth>month" v-on:click="findPrevMonth()" ><</b-button> @{{ monthName +" "+year}}<b-button class="offset-1" v-on:click="findNextMonth()">></b-button></div></template>
+        <span v-for="aday in days"> <span v-if="aday>=day ||  selectedMonth!=month"><b-button v-on:click="setDate(aday,selectedMonth)">@{{ aday }}</b-button></span><span v-else> <b-button disabled style="margin:2px">@{{ aday }}</b-button></span> </span>
+    </b-popover>
+</div>
+</b-container>
+
+<b-col sm="12"  class=" align-self-end sidepanel" >
+    <b-row align-h="center" class="roadcardtitle">
+        <b-col sm="auto"><span>Kurs masowania uszu</span></b-col>
+    </b-row>
+    <b-row>
+        <b-col  sm="12" style="margin:0px" class="roadmapCard">
+
+            <b-col  sm="12">
+
+                <b-row><b-img center src="{{ asset('img/cert.png') }}"  thumbnail fluid  alt="Circle image" alt="Center image"></b-img></b-row>
+            </b-col>
+            <b-col sm="12" class="cardtext">
+                <span>Dolegliwości bólowe kręgosłupa są bardzo częstym problemem. Ich przyczyny, podobnie jak czynniki je wywołujące mogą być rożne. Powikłania i dolegliwości są często odczuwalne w innych niż kręgosłup</span>
+            </b-col>
+
+        </b-col>
+    </b-row>
+</b-col>
