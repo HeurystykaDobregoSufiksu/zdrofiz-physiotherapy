@@ -62628,15 +62628,15 @@ Popper.Defaults = Defaults;
 
 "use strict";
 
- /*! 
-  * portal-vue © Thorsten Lünborg, 2019 
-  * 
+ /*!
+  * portal-vue © Thorsten Lünborg, 2019
+  *
   * Version: 2.1.7
-  * 
-  * LICENCE: MIT 
-  * 
+  *
+  * LICENCE: MIT
+  *
   * https://github.com/linusborg/portal-vue
-  * 
+  *
  */
 
 
@@ -63902,7 +63902,7 @@ function addStyle (obj, options) {
 	// If a transform function was defined, run it on the css
 	if (options.transform && obj.css) {
 	    result = typeof options.transform === 'function'
-		 ? options.transform(obj.css) 
+		 ? options.transform(obj.css)
 		 : options.transform.default(obj.css);
 
 	    if (result) {
@@ -76292,7 +76292,7 @@ module.exports = function(module) {
 
 /***/ "./resources/css/main.css":
 /*!********************************!*\
-  !*** ./resources/css/main.css ***!
+  !*** ./resources/css/tail.css ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -76375,14 +76375,14 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ 0:
 /*!**************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/css/main.css ***!
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/css/tail.css ***!
   \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\lucas\PhpstormProjects\g\resources\js\app.js */"./resources/js/app.js");
 __webpack_require__(/*! C:\Users\lucas\PhpstormProjects\g\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\lucas\PhpstormProjects\g\resources\css\main.css */"./resources/css/main.css");
+module.exports = __webpack_require__(/*! C:\Users\lucas\PhpstormProjects\g\resources\css\tail.css */"./resources/css/main.css");
 
 
 /***/ })

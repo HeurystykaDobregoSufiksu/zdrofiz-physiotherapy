@@ -21,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/zdrofiz" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,6 +138,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Strony\zwq\zdrofiz-physiotherapy\public\css" />
       <recent name="C:\Users\lucas\PhpstormProjects\g\public\img" />
       <recent name="C:\Users\lucas\PhpstormProjects\g\public" />
       <recent name="C:\Users\lucas\PhpstormProjects\g\resources\img" />
@@ -170,6 +171,8 @@
       <workItem from="1588108155551" duration="513000" />
       <workItem from="1596014975906" duration="5283000" />
       <workItem from="1596132175530" duration="2341000" />
+      <workItem from="1596221932379" duration="1508000" />
+      <workItem from="1596267835069" duration="2275000" />
     </task>
     <servers />
   </component>
@@ -177,36 +180,16 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="100" width="731" height="628" key="EditFileWatcherDialog" timestamp="1587589284513">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="317" y="100" width="731" height="628" key="EditFileWatcherDialog/0.0.1366.728/-1680.-282.1680.1010@0.0.1366.728" timestamp="1587589284513" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587589833186">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1680.-282.1680.1010@0.0.1366.728" timestamp="1587589833186" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587589833186">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1680.-282.1680.1010@0.0.1366.728" timestamp="1587589833186" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587589833185">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1680.-282.1680.1010@0.0.1366.728" timestamp="1587589833185" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587589833186">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1680.-282.1680.1010@0.0.1366.728" timestamp="1587589833186" />
     <state x="-1339" y="-135" key="SettingsEditor" timestamp="1587675402167">
       <screen x="-1680" y="-282" width="1680" height="1010" />
     </state>
     <state x="-1339" y="-135" key="SettingsEditor/0.0.1366.728/-1680.-282.1680.1010@-1680.-282.1680.1010" timestamp="1587675402167" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596132208240">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596267833153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1214" y="-21" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1680.-282.1680.1010@-1680.-282.1680.1010" timestamp="1588108159553" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1680.-282.1680.1010@0.0.1366.728" timestamp="1587595656625" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596132208240" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1596267833153" />
     <state x="-1184" y="92" key="run.anything.popup" timestamp="1587747061157">
       <screen x="-1680" y="-282" width="1680" height="1010" />
     </state>

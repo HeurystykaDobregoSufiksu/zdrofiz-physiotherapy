@@ -12,7 +12,7 @@ console.log("DUPA");
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css').postCss('resources/css/main.css', 'public/css', [
+    .sass('resources/sass/app.scss', 'public/css').postCss('resources/css/tail.css', 'public/css', [
     require('tailwindcss'),
 ]).browserSync({
     proxy: 'http://127.0.0.1:8000'

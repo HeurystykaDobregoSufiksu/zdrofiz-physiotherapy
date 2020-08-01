@@ -7,6 +7,7 @@
         <title>Laravel</title>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/tail.css') }}" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 
 
@@ -54,8 +55,7 @@
             </b-col>
 
             <b-col id="contact" offset-sm="1" sm="3">
-                <b-col sm="12" id="imagecontainer" style="animation-name: fadeleft;
-    animation-duration: 2s">
+                <b-col sm="12" id="imagecontainer">
                     <b-row class="justify-content-md-center text-center" id="zdjecie">
                         <b-col sm="12" >
                             <b-row align-h="center">
