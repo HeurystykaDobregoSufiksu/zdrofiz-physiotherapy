@@ -172,7 +172,12 @@
       <workItem from="1596014975906" duration="5283000" />
       <workItem from="1596132175530" duration="2341000" />
       <workItem from="1596221932379" duration="1508000" />
-      <workItem from="1596267835069" duration="2275000" />
+      <workItem from="1596267835069" duration="2584000" />
+      <workItem from="1596271318196" duration="183000" />
+      <workItem from="1596272779844" duration="2975000" />
+      <workItem from="1596293781943" duration="746000" />
+      <workItem from="1596296349296" duration="5735000" />
+      <workItem from="1598441212022" duration="237000" />
     </task>
     <servers />
   </component>
@@ -180,19 +185,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1339" y="-135" key="SettingsEditor" timestamp="1587675402167">
-      <screen x="-1680" y="-282" width="1680" height="1010" />
-    </state>
-    <state x="-1339" y="-135" key="SettingsEditor/0.0.1366.728/-1680.-282.1680.1010@-1680.-282.1680.1010" timestamp="1587675402167" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596267833153">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598441213990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="-1214" y="-21" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1680.-282.1680.1010@-1680.-282.1680.1010" timestamp="1588108159553" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596132208240" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1596267833153" />
-    <state x="-1184" y="92" key="run.anything.popup" timestamp="1587747061157">
-      <screen x="-1680" y="-282" width="1680" height="1010" />
-    </state>
-    <state x="-1184" y="92" key="run.anything.popup/0.0.1366.728/-1680.-282.1680.1010@-1680.-282.1680.1010" timestamp="1587747061157" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1598441213990" />
   </component>
 </project>

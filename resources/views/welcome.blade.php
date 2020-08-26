@@ -8,6 +8,9 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
         <link href="{{ asset('css/tail.css') }}" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 
 
@@ -27,12 +30,11 @@
                 <b-collapse id="nav-text-collapse" is-nav>
                     <b-navbar-nav>
                         <b-nav-text>Karolina Borawska   |</b-nav-text>
-
-                        <b-nav-item href="#top"> O mnie</b-nav-item>
-                        <b-nav-item href="#doswiadczenie"> Doświadczenie</b-nav-item>
-                        <b-nav-item href="#kursy"> Kwalifikacje</b-nav-item>
+                        <b-nav-item href="#top"  > O mnie</b-nav-item>
+                        <b-nav-item href="#doswiadczenie"  > Doświadczenie</b-nav-item>
+                        <b-nav-item href="#kursy"  > Kwalifikacje</b-nav-item>
                         <b-nav-item v-b-modal.modal-1 href="#wizyta"> Umów wizytę online</b-nav-item>
-                        <b-nav-item href="#pytania"> Pytania i odpowiedzi</b-nav-item>
+                        <b-nav-item href="#pytania"  > Pytania i odpowiedzi</b-nav-item>
                     </b-navbar-nav>
 
                 </b-collapse>
@@ -151,7 +153,7 @@
 
                 <b-row align-h="center" style="padding-top:5vh" id="roadmap">
                     <b-col sm="8">
-                        <b-row class="roadMappanel">
+                        <b-row data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000"  class="roadMappanel">
                             <b-col sm="5"  class="sidepanel align-self-end" id="leftPanel" >
                                 <b-row align-h="center" class="roadcardtitle">
                                     <b-col sm="auto"><span>Kurs masowania uszu</span></b-col>
@@ -177,7 +179,7 @@
                             </b-col>
 
                         </b-row>
-                        <b-row class=="roadMappanel">
+                        <b-row data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000" class=="roadMappanel">
                             <b-col v-if="seen2" offset-sm="5" sm="2" style="padding:0px" >
                                 <b-col sm="6" style="padding:0px" id="centerPanel"></b-col>
                                 <b-row align-h="center"><div style="margin-left:-2px;width: 2vh;height: 2vh;border-radius: 20px" class="border-purple-600 bg-purple-600"></div></b-row>
@@ -202,7 +204,7 @@
                                 </b-row>
                             </b-col>
                         </b-row>
-                        <b-row class="roadMappanel">
+                        <b-row data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000" class="roadMappanel">
                             <b-col sm="5"  class="sidepanel align-self-end" id="leftPanel" >
                                 <b-row>
                                     <b-col  sm="12" style="margin:0px" class="roadmapCard">
@@ -228,7 +230,7 @@
                             </b-col>
 
                         </b-row>
-                        <b-row class=="roadMappanel">
+                        <b-row data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000" class=="roadMappanel">
 
                             <b-col v-if="seen2" offset-sm="5" sm="2" style="padding:0px" >
                                 <b-col sm="6" style="padding:0px" id="centerPanel"></b-col>
@@ -254,7 +256,7 @@
                                 </b-row>
                             </b-col>
                         </b-row>
-                        <b-row class="roadMappanel">
+                        <b-row data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000" class="roadMappanel">
                             <b-col xs="2" sm="5"  class=" align-self-end sidepanel" >
                                 <b-row align-h="center" class="roadcardtitle">
                                     <b-col sm="auto"><span>Kurs masowania uszu</span></b-col>
@@ -409,10 +411,12 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="{{ asset('/js/app.js') }}"></script>
     <script>
-
 
         const app=new Vue({
             el: '#app',
